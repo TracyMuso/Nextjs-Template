@@ -1,11 +1,25 @@
-exports[`renders homepage`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders greeting 3`] = `
 <div>
-    <main
-    >
-      <h1
-      >
-      hi
+  <div>
+    <main>
+      <h1>
+        hello
       </h1>
     </main>
+  </div>
+</div>
+`;
+
+exports[`renders greeting 3 1`] = `
+<div>
+  <div>
+    <main>
+      <h1>
+        hello
+      </h1>
+    </main>
+  </div>
 </div>
 `;
