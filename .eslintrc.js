@@ -8,6 +8,7 @@ module.exports = {
     'love',
     'next/core-web-vitals',
     'prettier',
+    'plugin:storybook/recommended',
   ],
   overrides: [],
   plugins: ['react', 'prettier'],
