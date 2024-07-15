@@ -1,0 +1,11 @@
+exports[`renders homepage`] = `
+<div>
+    <main
+    >
+      <h1
+      >
+      hi
+      </h1>
+    </main>
+</div>
+`;
