@@ -22,9 +22,7 @@
     "baseUrl": ".",
     "types": ["@testing-library/jest-dom"],
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/pages/*": ["app/*"],
-      "@/styles/*": ["styles/*"]
+      "@/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

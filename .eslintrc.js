@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'love',
+    'airbnb-typescript',
     'next/core-web-vitals',
     'prettier',
     'plugin:storybook/recommended',
@@ -16,7 +16,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: true,
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },
@@ -24,5 +24,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/consistent-type-definitions': ['off'],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'import/no-anonymous-default-export': 'off',
+    'import/extensions': 'off',
+    'react/no-unescaped-entities': 'off',
   },
 }
