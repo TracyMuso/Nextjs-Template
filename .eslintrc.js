@@ -17,9 +17,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   rules: {
     '@typescript-eslint/consistent-type-definitions': ['off'],
