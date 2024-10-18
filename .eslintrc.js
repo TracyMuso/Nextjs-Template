@@ -8,7 +8,6 @@ module.exports = {
     'airbnb-typescript',
     'next/core-web-vitals',
     'prettier',
-    'plugin:storybook/recommended',
   ],
   overrides: [],
   plugins: ['react', 'prettier'],
